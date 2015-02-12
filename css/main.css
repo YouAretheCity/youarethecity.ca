@@ -1,0 +1,44 @@
+/* line 8, ../sass/main.sass */
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: "Oswald", sans-serif;
+}
+
+/* line 13, ../sass/main.sass */
+#top {
+  display: table;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: #09878c;
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=1, startColorstr='#FF09878C', endColorstr='#FF1E5799');
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PHJhZGlhbEdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgY3g9IjUwJSIgY3k9IiIgcj0iMTAwIj48c3RvcCBvZmZzZXQ9IjEyJSIgc3RvcC1jb2xvcj0iIzA5ODc4YyIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzFlNTc5OSIvPjwvcmFkaWFsR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -webkit-gradient(radial, 50%, 0, 50%, 100, color-stop(12%, #09878c), color-stop(100%, #1e5799));
+  background-image: -webkit-radial-gradient(center, ellipse cover, #09878c 12%, #1e5799 100%);
+  background-image: -moz-radial-gradient(center, ellipse cover, #09878c 12%, #1e5799 100%);
+  background-image: -o-radial-gradient(center, ellipse cover, #09878c 12%, #1e5799 100%);
+  background-image: radial-gradient(center, ellipse cover, #09878c 12%, #1e5799 100%);
+}
+/* line 31, ../sass/main.sass */
+#top .vert-text {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  color: white;
+  margin-top: 90px;
+  padding-bottom: 30px;
+  letter-spacing: 8px;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px black;
+}
+/* line 45, ../sass/main.sass */
+#top .temp-logo {
+  font-size: 5em;
+}

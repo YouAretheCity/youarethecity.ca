@@ -1,0 +1,68 @@
+@import compass
+
+$xs: 767px
+$sm: 768px
+$md: 992px
+$lg: 1200px
+
+html, body
+  height: 100%
+  width: 100%
+  font-family: "Oswald", sans-serif
+
+#top
+  display: table
+  height: 100%
+  width: 100%
+  position: relative
+  // background: url(../img/bg.jpg) no-repeat center center fixed
+  -webkit-background-size: cover
+  -moz-background-size: cover
+  -o-background-size: cover
+  background-size: cover
+
+  // needs latest Compass, add '@import "compass"' to your scss
+  background-color: #09878C // Old browsers
+  @include filter-gradient(#09878C, #1e5799, horizontal) // IE6-8 fallback on horizontal gradient
+  // IE9 SVG, needs conditional override of 'filter' to 'none'
+  $experimental-support-for-svg: true
+  @include background-image(radial-gradient(center, ellipse cover,  #09878C 12%,#1e5799 100%))
+
+  .vert-text
+    display: table-cell
+    vertical-align: middle
+    text-align: center
+    // color: white
+    // text-shadow: black 3px 1px 3px
+
+    color: #ffffff
+    margin-top: 90px
+    padding-bottom: 30px
+    letter-spacing: 8px
+    font-weight: bold
+    text-shadow: 2px 2px 2px #000
+
+  .temp-logo
+    font-size: 5em
+
+  // h1
+  //   font-size: 2em
+  //   letter-spacing: 0px
+  //   margin: 10px auto
+  //   @media (min-width: $lg)
+  //     font-size: 3em
+  //   @media (max-width: $md)
+  //     font-size: 2em
+  //   @media (max-width: $sm)
+  //     font-size: 1.2em
+
+  // h2
+  //   margin: 10px auto
+  //   font-size: 2em
+  //   width: 100%
+  //   @media (min-width: $lg)
+  //     font-size: 2.5em
+  //   @media (max-width: $md)
+  //     font-size: 2em
+  //   @media (max-width: $sm)
+  //     font-size: 1.1em
